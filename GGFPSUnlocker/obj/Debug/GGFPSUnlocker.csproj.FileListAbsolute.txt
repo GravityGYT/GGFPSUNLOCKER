@@ -1,0 +1,9 @@
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\bin\Debug\GGFPSUnlocker.exe.config
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\bin\Debug\GGFPSUnlocker.exe
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\bin\Debug\GGFPSUnlocker.pdb
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\GGFPSUnlocker.csproj.AssemblyReference.cache
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\GGFPSUnlocker.csproj.CoreCompileInputs.cache
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\GGFPSUnlocker.exe
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\GGFPSUnlocker.pdb
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\fuzio\source\repos\GGFPSUnlocker\GGFPSUnlocker\obj\Debug\GGFPSUnlocker.csproj.ResolveComReference.cache
