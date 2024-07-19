@@ -11,14 +11,9 @@ public class Program
         Dictionary<string, string> browsers = new Dictionary<string, string>
         {
             { "Google Chrome", @"C:\Program Files\Google\Chrome\Application\chrome.exe" },
-            { "Mozilla Firefox", @"C:\Program Files\Mozilla Firefox\firefox.exe" },
-            { "Internet Explorer", @"C:\Program Files\Internet Explorer\iexplore.exe" },
-            { "Microsoft Edge", @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" },
             { "Opera GX", $@"C:\Users\{Environment.UserName}\AppData\Local\Programs\Opera GX\opera.exe" },
             { "Opera_all", $@"C:\Program Files\Opera GX" },
-            { "Firefox", @"C:\Program Files\Mozilla Firefox\firefox.exe" },
             { "Brave", @"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" },
-            { "Avast Secure Browser", @"C:\Program Files (x86)\AVAST Software\Browser\Application\AvastBrowser.exe" }
         };
 
         List<string> keysToRemove = new List<string>();
@@ -45,7 +40,8 @@ public class Program
 
         Console.WriteLine("GG_FPS_UNLOCKER");
         Console.WriteLine("By GravityG");
-        Console.WriteLine("Version: 1");
+        Console.WriteLine("Version: 1.1");
+        Console.WriteLine("Snay.io's optimization is shit");
         Console.WriteLine(" ");
 
         var browsers = GetInstalledBrowsers();
@@ -112,14 +108,14 @@ public class Program
 
         if (option == 1)
         {
-            Process.Start(selectedBrowser, "--disable-frame-rate-limit");
+            Process.Start(selectedBrowser, "--disable-gpu-vsync --disable-frame-rate-limit --enable-zero-copy --disable-accelerated-video-decode --process-per-site");
         }
         else if (option == 2)
         {
             IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
             IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Browser.lnk") as IWshRuntimeLibrary.IWshShortcut;
             shortcut.TargetPath = selectedBrowser;
-            shortcut.Arguments = "--disable-frame-rate-limit";
+            shortcut.Arguments = "--disable-gpu-vsync --disable-frame-rate-limit --enable-zero-copy --disable-accelerated-video-decode --process-per-site";
             shortcut.Save();
         }
     }
